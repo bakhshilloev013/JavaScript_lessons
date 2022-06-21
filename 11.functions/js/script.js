@@ -119,3 +119,59 @@ let x = 10;
 // })("Hello world!"); 
 
 
+// 1)
+// let num = 1;
+
+// function multiply() {
+//     if (arguments.length == 0) {
+//         console.log("error");
+//     } else {
+//         for (let i = 0; i < arguments.length; i++) {
+//             num *= arguments[i];
+//         };
+//     }
+// };
+
+// multiply();
+// console.log(num);
+
+// 2)
+// function reverseString(str) {
+//     let newStr = "";
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         newStr += str[i];
+//     };
+//     return newStr;
+// };
+
+// const result = reverseString("test");
+// console.log(result);
+
+// 3)
+// function getCodeStringFromText(str) {
+//     let newStr = '';
+//     for (let i = 0; i < str.length; i++) {
+//         newStr += str[i].charCodeAt() + " ";
+//     }
+//     return newStr;
+// };
+
+// console.log(getCodeStringFromText("hello"));
+
+// 4)
+// let ques = +prompt("Загадайте число", "");
+
+// function randomNumber(numUser) {
+//     let randomNum = Math.round(Math.random()*10);
+//     if (numUser >= 1 && numUser <= 10) {
+//         if (numUser == randomNum ) {
+//             console.log("You win!");
+//         } else {
+//             console.log(`You loss, your number is ${numUser} random number is ${randomNum}`);
+//         };
+//     } else {
+//         console.log("error");
+//     }
+// };
+
+// randomNumber(ques);
