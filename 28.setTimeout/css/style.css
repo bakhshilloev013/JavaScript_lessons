@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn {
+    height: 45px;
+    width: 100px;
+    background-color: yellow;
+}
+.wrapper {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+}
+.wrapper .box {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
