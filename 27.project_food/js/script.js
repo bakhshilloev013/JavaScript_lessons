@@ -4,18 +4,23 @@ document.addEventListener('DOMContentLoaded', () => {
           tabs = tabsWrapper.querySelectorAll('.tabheader__item'),
           tabsContents = document.querySelectorAll('.tabcontent');
 
+    // Функция скрытия элементов
     function hideTabContent() {
+        // Скрытие контентов с помощью классов
         tabsContents.forEach(content => {
             content.classList.remove('show', 'fade');
             content.classList.add('hide');
         });
-
+        
+        // Убрать с таба активность
         tabs.forEach(tab => {
             tab.classList.remove('tabheader__item_active');
         });
     };
-
+    
+    // Функция выявления элементов
     function showTabContent(i) {
+        // Выявление элементов и табов с помощью склассов
         tabsContents[i].classList.remove('hide');
         tabsContents[i].classList.add('show', 'fade');
         tabs[i].classList.add('tabheader__item_active');
