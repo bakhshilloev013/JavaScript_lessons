@@ -1,0 +1,39 @@
+{
+  "people": [
+    {
+      "name": "John",
+      "surname": "Smith",
+      "sex": "male",
+      "age": 26,
+      "photo": "https://klike.net/uploads/posts/2020-08/1597994286_2.jpg"
+    },
+    {
+      "name": "Angela",
+      "surname": "Whinston",
+      "sex": "female",
+      "age": 31,
+      "photo": "https://bigpicture.ru/wp-content/uploads/2019/04/grandbeauty00.jpg"
+    },
+    {
+      "name": "Alex",
+      "surname": "Solberry",
+      "sex": "male",
+      "age": 35,
+      "photo": "https://radiovera.ru/wp-content/uploads/2018/03/Andrey-Tarasov_.jpg"
+    },
+    {
+      "name": "Anna",
+      "surname": "Rayan",
+      "sex": "female",
+      "age": 23,
+      "photo": "https://cs10.pikabu.ru/post_img/2019/02/08/11/1549649183175163822.jpg"
+    },
+    {
+      "name": "Michael",
+      "surname": "Dobkin",
+      "sex": "male",
+      "age": 30,
+      "photo": "https://img.pravda.com/images/doc/5/7/575c221-000.jpg"
+    }
+  ]
+}
