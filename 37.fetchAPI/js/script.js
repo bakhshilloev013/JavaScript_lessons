@@ -14,5 +14,5 @@
             "Content-type": "application/json"
         }
     })
-        .then(response => response.json())  // метод json превращает json объект в настоящий рабочий javascript объект и возвращает(return) в эту же строку для дальнейшего взаимодействия
+        .then(response => response.json())  // метод json превращает json объект в promise которого можно then-ить или catch-нуть и возвращает(return) в эту же строку для дальнейшего взаимодействия
         .then(json => console.log(json));
